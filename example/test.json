@@ -1,0 +1,18 @@
+[
+    {
+        "data": [
+            "1. This is a TXT resource Record, the first"
+        ], 
+        "type": "TXT", 
+        "name": "google.infrasvcs.rhythmic.net", 
+        "ttl": 300
+    },
+    {
+        "data": [
+            "2. This is a TXT resource Record"
+        ], 
+        "type": "TXT", 
+        "name": "google2.infrasvcs.rhythmic.net", 
+        "ttl": 300
+    }
+]
