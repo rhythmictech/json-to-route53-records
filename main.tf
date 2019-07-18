@@ -22,6 +22,7 @@ resource "aws_route53_record" "my_dns_records" {
 
   name    = var.resource_records[count.index].name
   type    = var.resource_records[count.index].type
+  ttl     = var.resource_records[count.index].ttl
   zone_id = var.common_zone_id
   records = var.resource_records[count.index].data
 }
